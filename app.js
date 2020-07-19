@@ -77,7 +77,7 @@ app.post('/failure', function (req, res){
 
 
 //listen
-app.listen(process.env.PORT, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log('Running on 3000');
 });
 
